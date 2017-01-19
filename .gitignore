@@ -1,2 +1,4 @@
 /build
 /node_modules
+/src/jquery.terminal.css
+/src/jquery.terminal.js

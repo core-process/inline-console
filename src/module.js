@@ -1,11 +1,11 @@
-import 'imports?jQuery=jquery!jquery.terminal';
 import $ from 'jquery';
 import _ from 'underscore';
 import stringify from 'json-stringify-safe';
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 
-import 'jquery.terminal/css/jquery.terminal.css';
+import 'imports?jQuery=jquery!./jquery.terminal.js';
+import './jquery.terminal.css';
 
 class TerminalWrapper {
   constructor(target, redirect) {

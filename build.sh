@@ -38,6 +38,8 @@ if [ "$ENABLE_REBUILD" = true ]; then
   npm install
 fi
 
+curl -o src/jquery.terminal.js https://raw.githubusercontent.com/jcubic/jquery.terminal/master/js/jquery.terminal.js
+curl -o src/jquery.terminal.css https://raw.githubusercontent.com/jcubic/jquery.terminal/master/css/jquery.terminal.css
 npm run build
 
 if [ "$ENABLE_PUBLISH" = true ]; then
