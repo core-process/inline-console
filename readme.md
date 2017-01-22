@@ -6,6 +6,8 @@ An excellent inline console for browsers as React component based on jquery.term
 
 Very useful inline browser console which gives you full access to the JavaScript console and console output in case you do not have access to the developer console, e.g. when testing on [browserstack.com](http://browserstack.com) in certain mobile browsers. `inline-console` uses [jquery.terminal](http://terminal.jcubic.pl/) under the hood.
 
+For a screenshot see the 'Advanced Example' below.
+
 ## Installation
 
 Install the `inline-console` module via
