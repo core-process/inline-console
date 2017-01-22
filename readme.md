@@ -100,3 +100,5 @@ if( typeof query['inline-console'] !== 'undefined'
 }
 ...
 ```
+
+![screenshot of example](readme-screenshot.png?raw=true)
