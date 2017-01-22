@@ -95,7 +95,7 @@ if( typeof query['inline-console'] !== 'undefined'
   container.style.display = 'block';
   render(
     <InlineConsole redirect={true}/>,
-  	container
+    container
   );
 }
 ...
