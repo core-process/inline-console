@@ -1,7 +1,7 @@
 {
   "name": "inline-console",
   "version": "1.0.12",
-  "description": "A nice inline browser console for react based on jquery.terminal.",
+  "description": "An excellent inline console for browsers as React component based on jquery.terminal.",
   "main": "build/module.js",
   "scripts": {
     "build": "babel src --out-dir build --source-maps --copy-files",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/core-process/inline-console.git"
   },
   "author": "Niklas Salmoukas <niklas@salmoukas.com>",
-  "license": "SEE LICENSE IN license.md",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/core-process/inline-console/issues"
   },
