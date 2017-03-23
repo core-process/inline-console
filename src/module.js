@@ -4,7 +4,7 @@ import stringify from 'json-stringify-safe';
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 
-import 'imports?jQuery=jquery!./jquery.terminal.js';
+import 'imports-loader?jQuery=jquery!./jquery.terminal.js';
 import './jquery.terminal.css';
 
 class TerminalWrapper {
