@@ -28,7 +28,7 @@ class TerminalWrapper {
             terminal.exception(error);
           }
           if(succeeded) {
-            terminal.echo(stringify(result));
+            terminal.echo(stringify(result) || 'undefined');
           }
         }
       };
