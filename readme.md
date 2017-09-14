@@ -24,9 +24,9 @@ yarn add inline-console
 
 ## Usage
 
-The default export of `inline-console` is a simple React component. It offers a single property named `redirect` of type `Boolean` to control redirect behavior of `console.log` and its siblings. The component renders a `div` element with the CSS class `terminal` attached. This `div` element gets populated by `jquery.terminal`.
+The default export of `inline-console` is a simple React component. It offers a property named `redirect` of type `Boolean` to control redirect behavior of `console.log` and its siblings. Furthermore you can provide an [options](http://terminal.jcubic.pl/api_reference.php#options) and an [interpreter](http://terminal.jcubic.pl/api_reference.php#interpreter) property. The component renders a `div` element with the CSS class `terminal` attached. This `div` element gets populated by `jquery.terminal`.
 
-Example:
+Example 1:
 
 ```js
 import InlineConsole from 'inline-console';
@@ -34,6 +34,22 @@ import InlineConsole from 'inline-console';
 const MyComponent = (props) => (
   <div className="inline-console">
     <InlineConsole redirect={true}/>
+  </div>
+);
+```
+
+Example 2:
+
+```js
+import InlineConsole from 'inline-console';
+
+const MyComponent = (props) => (
+  <div className="inline-console">
+    <InlineConsole
+      redirect={false}
+      options={prompt: '>'}
+      interpreter={(command) => { alert(command); }}
+    />
   </div>
 );
 ```
