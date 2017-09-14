@@ -108,6 +108,7 @@ export default class InlineConsole extends React.Component {
     this._console = new TerminalWrapper(
       findDOMNode(this),
       !!this.props.redirect,
+      this.props.interpreter,
       this.props.options || { }
     );
   }
