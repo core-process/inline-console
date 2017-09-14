@@ -47,7 +47,7 @@ const MyComponent = (props) => (
   <div className="inline-console">
     <InlineConsole
       redirect={false}
-      options={prompt: '>'}
+      options={{prompt: '>'}}
       interpreter={(command) => { alert(command); }}
     />
   </div>
