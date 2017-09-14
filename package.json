@@ -1,6 +1,6 @@
 {
   "name": "inline-console",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "An excellent inline console for browsers as React component based on jquery.terminal.",
   "main": "build/module.js",
   "scripts": {
