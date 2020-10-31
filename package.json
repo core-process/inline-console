@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/core-process/inline-console.git"
+    "url": "git+https://github.com/coreprocess/inline-console.git"
   },
   "author": "Niklas Salmoukas <niklas@salmoukas.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/core-process/inline-console/issues"
+    "url": "https://github.com/coreprocess/inline-console/issues"
   },
-  "homepage": "https://github.com/core-process/inline-console#readme",
+  "homepage": "https://github.com/coreprocess/inline-console#readme",
   "dependencies": {
     "deep-equal": "^1.0.1",
     "jquery": "^3.2.1",
